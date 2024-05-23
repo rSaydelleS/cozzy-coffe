@@ -5,10 +5,44 @@
   font-family: "Manrope", sans-serif;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+
+  background-color: rgba(54, 54, 54, 0.459);
+  color: whitesmoke;
+  font-size: 20px;
+
+  padding: 1.5rem 0;
+}
+
+.listAction ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 1rem;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.listAction ul li:hover::after {
+  content: "";
+  border-bottom: 3px black solid;
+  border-radius: 10%;
+  box-shadow: 3px 3px 5px black;
+  display: flex;
+  flex-direction: column;
+}
+
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(2, 200px);
   align-items: center;
   justify-items: center;
   gap: 2rem;
@@ -19,6 +53,10 @@
   height: 100%;
   padding: 2rem 2rem;
   text-align: center;
+
+  display: grid;
+  grid-template-rows: repeat(auto, 200px);
+  gap: 2rem;
 }
 
 img {
