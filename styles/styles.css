@@ -21,6 +21,12 @@
   padding: 1.5rem 0;
 }
 
+.nav h1 {
+  background-clip: text;
+  background-image: linear-gradient(to right, #757575, black);
+  color: transparent;
+}
+
 .listAction ul {
   display: flex;
   list-style: none;
@@ -52,6 +58,16 @@
   font-size: 18px;
   font-weight: 500;
   text-wrap: wrap;
+}
+
+.about button {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #00c853, #69f0ae);
 }
 
 .products {
