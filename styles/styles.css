@@ -40,6 +40,20 @@
   flex-direction: column;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.about p {
+  font-size: 18px;
+  font-weight: 500;
+  text-wrap: wrap;
+}
+
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
