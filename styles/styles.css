@@ -32,6 +32,11 @@
   color: transparent;
 }
 
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 .listAction ul {
   display: flex;
   list-style: none;
